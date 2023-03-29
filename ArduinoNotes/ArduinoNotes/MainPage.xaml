@@ -1,0 +1,42 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="ArduinoNotes.MainPage"
+             BackgroundImageSource="background.png">
+    <NavigationPage.TitleView>
+        <Grid>
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition Width="Auto"/>
+                <ColumnDefinition Width="Auto"/>
+            </Grid.ColumnDefinitions>
+            <Image
+                x:Name="logo"
+                Source="logo.png"
+                WidthRequest="60"
+                HeightRequest="60"
+                Margin="-5, 0, 0, 0"
+                Aspect="AspectFit"/>
+            <Label x:Name="LogoText" 
+                   Grid.Column="1"
+                   VerticalTextAlignment="Center"
+                   Margin="5, 0, 0, 10"
+                   Text="{Binding SolutionName}"
+                   FontFamily="Alkatra.ttf"
+                   FontSize="20"
+                   TextColor="WhiteSmoke"/>
+            <Image
+                x:Name="threeDotsMenu"
+                Source="threedots.png"
+                WidthRequest="25"
+                HeightRequest="25"
+                Grid.Column="2"
+                HorizontalOptions="End"
+                VerticalOptions="Center"
+                Margin="0, 0, 5, 5">
+                <Image.GestureRecognizers>
+                    <TapGestureRecognizer Tapped="openRightMenu"/>
+                </Image.GestureRecognizers>
+            </Image>
+        </Grid>
+    </NavigationPage.TitleView>
+</ContentPage>
