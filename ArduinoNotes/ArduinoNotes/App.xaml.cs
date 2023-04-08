@@ -10,7 +10,20 @@ namespace ArduinoNotes
         {
             InitializeComponent();
 
-            MainPage = new NavigationPage(new MainPage());
+            var flyoutPage = new FlyoutPage
+            {
+                Title = "ArduinoNotes",
+                Flyout = new NavigationPage(new FlyoutMenuPage())
+                {
+                    Title = "Menu"
+                },
+                Detail = new NavigationPage(new HomePage())
+                {
+                    Title = "Home"
+                }
+            };
+
+            MainPage = flyoutPage;
         }
 
         protected override void OnStart()

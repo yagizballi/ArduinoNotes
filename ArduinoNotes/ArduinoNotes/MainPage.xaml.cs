@@ -9,23 +9,7 @@ using Xamarin.Forms.PlatformConfiguration;
 
 namespace ArduinoNotes
 {
-    public partial class MainPage : ContentPage
+    public partial class MainPage : FlyoutPage
     {
-        public string SolutionName { get; set; } = "AndroidArduinoNotes";
-        public MainPage()
-        {
-            InitializeComponent();
-            BindingContext = this;
-
-        }
-        protected override void OnAppearing()
-        {
-            base.OnAppearing();
-            NavigationPage.SetHasNavigationBar(this, true);
-        }
-        private void openRightMenu(object sender, EventArgs e)
-        {
-
-        }
     }
 }
