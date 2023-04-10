@@ -3,7 +3,8 @@
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
              x:Class="ArduinoNotes.AddNote"
              Title="Add Note"
-             BackgroundImageSource="background.png">
+             BackgroundImageSource="background.png"
+             FlowDirection="LeftToRight">
     <ContentPage.Content>
         <StackLayout>
             <Entry
@@ -23,7 +24,7 @@
                 Text="Enter Your Code Here"
                 HeightRequest="450"
                 x:Name="Code"
-                HorizontalOptions="FillAndExpand"
+                HorizontalOptions="CenterAndExpand"
                 FontSize="20"
                 TextColor="LavenderBlush"
                 MaxLength="9999"
@@ -31,10 +32,12 @@
                 Unfocused="Code_Unfocused"
                 TextChanged="Code_TextChanged"/>
             <Button
+                CornerRadius="30"
                 Text="Take Note"
                 x:Name="TakeNoteBtn"
                 Margin="20, 30, 20, 0"
-                Clicked="TakeNoteBtn_Clicked"/>
+                Clicked="TakeNoteBtn_Clicked"
+                BackgroundColor="FloralWhite"/>
         </StackLayout>
     </ContentPage.Content>
 </ContentPage>

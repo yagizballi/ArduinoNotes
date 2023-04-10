@@ -9,7 +9,6 @@
     <ContentPage.Content>
         <StackLayout>
             <Grid
-                BackgroundColor="Red"
                 HeightRequest="500"/>
         </StackLayout>
     </ContentPage.Content>

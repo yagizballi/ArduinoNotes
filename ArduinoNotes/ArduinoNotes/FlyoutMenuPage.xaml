@@ -4,9 +4,9 @@
              xmlns:local="clr-namespace:ArduinoNotes"
              Title="FlyoutMenu"
              x:Class="ArduinoNotes.FlyoutMenuPage"
-             BackgroundImageSource="background.png">
+             BackgroundColor="Black">
     <StackLayout>
-        <Label Text="Select Page" FontSize="35" HorizontalTextAlignment="Center" TextColor="WhiteSmoke" BackgroundColor="Gray"/>
+        <Label Text="Select Page" FontSize="42" HorizontalTextAlignment="Center" TextColor="WhiteSmoke" BackgroundColor="#9F683B"/>
         <ListView x:Name="listview" x:FieldModifier="public">
             <ListView.ItemsSource>
                 <x:Array Type="{x:Type local:FlyoutItemPage}">

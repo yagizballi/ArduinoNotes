@@ -3,7 +3,8 @@
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
              x:Class="ArduinoNotes.About"
              BackgroundImageSource="background.png"
-             Title="About">
+             Title="About"
+             FlowDirection="LeftToRight">
     <ContentPage.Content>
         <StackLayout>
             <Label Text="ABOUT"

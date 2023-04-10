@@ -35,6 +35,7 @@ namespace ArduinoNotes
         }
         private void Code_Focused(object sender, FocusEventArgs e)
         {
+            Code.HorizontalOptions = LayoutOptions.FillAndExpand;
             if(Code.Text == "Enter Your Code Here")
             {
                 Code.Text = string.Empty;
@@ -46,6 +47,7 @@ namespace ArduinoNotes
             if(Code.Text == string.Empty)
             {
                 Code.Text = "Enter Your Code Here";
+                Code.HorizontalOptions = LayoutOptions.CenterAndExpand;
             }
         }
         private void Code_TextChanged(object sender, TextChangedEventArgs e)
