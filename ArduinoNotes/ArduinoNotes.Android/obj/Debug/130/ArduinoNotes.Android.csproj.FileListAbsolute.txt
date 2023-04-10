@@ -639,3 +639,4 @@ C:\Users\towar\source\repos\ArduinoNotes\ArduinoNotes\ArduinoNotes.Android\obj\D
 C:\Users\towar\source\repos\ArduinoNotes\ArduinoNotes\ArduinoNotes.Android\obj\Debug\130\res\drawable\background.png
 C:\Users\towar\source\repos\ArduinoNotes\ArduinoNotes\ArduinoNotes.Android\obj\Debug\130\res\drawable\logo.png
 C:\Users\towar\source\repos\ArduinoNotes\ArduinoNotes\ArduinoNotes.Android\obj\Debug\130\res\drawable\threedots.png
+C:\Users\towar\source\repos\ArduinoNotes\ArduinoNotes\ArduinoNotes.Android\obj\Debug\130\res\drawable\github.png

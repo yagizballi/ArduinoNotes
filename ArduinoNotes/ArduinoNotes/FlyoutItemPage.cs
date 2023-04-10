@@ -8,7 +8,6 @@ namespace ArduinoNotes
     {
         public string Title { get; set; } = "ArduinoNotes";
         public string IconSource { get; set; }
-
         public Type TargetPage { get; set; }
     }
 }

@@ -1,0 +1,40 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="ArduinoNotes.AddNote"
+             Title="Add Note"
+             BackgroundImageSource="background.png">
+    <ContentPage.Content>
+        <StackLayout>
+            <Entry
+                Text="Enter Your Code Name Here"
+                x:Name="NoteName"
+                HorizontalTextAlignment="Center"
+                FontSize="25"
+                TextColor="WhiteSmoke"
+                ClearButtonVisibility="WhileEditing"
+                MaxLength="99"
+                Focused="Entry_Focused"
+                Unfocused="NoteName_Unfocused"/>
+            <Slider
+                IsEnabled="False"
+                Value="0.5"/>
+            <Editor
+                Text="Enter Your Code Here"
+                HeightRequest="450"
+                x:Name="Code"
+                HorizontalOptions="FillAndExpand"
+                FontSize="20"
+                TextColor="LavenderBlush"
+                MaxLength="9999"
+                Focused="Code_Focused"
+                Unfocused="Code_Unfocused"
+                TextChanged="Code_TextChanged"/>
+            <Button
+                Text="Take Note"
+                x:Name="TakeNoteBtn"
+                Margin="20, 30, 20, 0"
+                Clicked="TakeNoteBtn_Clicked"/>
+        </StackLayout>
+    </ContentPage.Content>
+</ContentPage>

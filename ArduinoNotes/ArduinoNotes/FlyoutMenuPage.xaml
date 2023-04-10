@@ -3,12 +3,16 @@
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
              xmlns:local="clr-namespace:ArduinoNotes"
              Title="FlyoutMenu"
-             x:Class="ArduinoNotes.FlyoutMenuPage">
+             x:Class="ArduinoNotes.FlyoutMenuPage"
+             BackgroundImageSource="background.png">
     <StackLayout>
-        <ListView>
+        <Label Text="Select Page" FontSize="35" HorizontalTextAlignment="Center" TextColor="WhiteSmoke" BackgroundColor="Gray"/>
+        <ListView x:Name="listview" x:FieldModifier="public">
             <ListView.ItemsSource>
                 <x:Array Type="{x:Type local:FlyoutItemPage}">
-                    <local:FlyoutItemPage Title="Home" TargetPage="{x:Type local:HomePage}"/>
+                    <local:FlyoutItemPage Title="Notes" x:Name="NotesArea" TargetPage="{x:Type local:HomePage}"/>
+                    <local:FlyoutItemPage Title="Add Note" x:Name="AddNoteArea" TargetPage="{x:Type local:AddNote}"/>
+                    <local:FlyoutItemPage Title="About" x:Name="AboutArea" TargetPage="{x:Type local:About}"/>
                 </x:Array>
             </ListView.ItemsSource>
             <ListView.ItemTemplate>
@@ -16,11 +20,22 @@
                     <ViewCell>
                         <Grid>
                             <Grid.ColumnDefinitions>
-                                <ColumnDefinition Width="37"/>
+                                <ColumnDefinition Width="200"/>
                                 <ColumnDefinition Width="*"/>
                             </Grid.ColumnDefinitions>
+                            <Image Source="{Binding IconSource}"/>
+                            <Label
+                                Text="."
+                                VerticalTextAlignment="Center"
+                                Margin="10, -23, 0, 0"
+                                FontSize="40"
+                                TextColor="White"/>
                             <Label 
-                                Text="{Binding Title}"/>
+                                Margin="26, 0, 0, 0"
+                                VerticalTextAlignment="Center"
+                                FontSize="20"
+                                Text="{Binding Title}"
+                                TextColor="WhiteSmoke"/>
                         </Grid>
                     </ViewCell>
                 </DataTemplate>

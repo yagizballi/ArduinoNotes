@@ -1,0 +1,37 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="ArduinoNotes.About"
+             BackgroundImageSource="background.png"
+             Title="About">
+    <ContentPage.Content>
+        <StackLayout>
+            <Label Text="ABOUT"
+                   TextColor="WhiteSmoke"
+                   FontSize="40"
+                   HorizontalTextAlignment="Center"/>
+            <Image Source="logo"
+                   WidthRequest="200"
+                   BackgroundColor="WhiteSmoke"/>
+            <Label Text="Arduino Notes is a application for access Arduino Example Notes in android phone."
+                   TextColor="WhiteSmoke"
+                   Margin="10, 0, 0, 0"
+                   FontSize="15"/>
+            <ImageButton Source="github.png"
+                         x:Name="githubOpenBrowser"
+                         BackgroundColor="Transparent"
+                         WidthRequest="100"
+                         HorizontalOptions="Center"
+                         Clicked="githubOpenBrowser_Clicked"/>
+            <Label Text="Made by Yağız BALLI"
+                   VerticalOptions="EndAndExpand"
+                   TextColor="WhiteSmoke"
+                   Margin="10, 0, 0, 0"
+                   FontSize="20"/>
+            <Label Text="Logo Designed by Samet BARLAK"
+                   TextColor="WhiteSmoke"
+                   FontSize="20"
+                   Margin="10, 0, 0, 20"/>
+        </StackLayout>
+    </ContentPage.Content>
+</ContentPage>

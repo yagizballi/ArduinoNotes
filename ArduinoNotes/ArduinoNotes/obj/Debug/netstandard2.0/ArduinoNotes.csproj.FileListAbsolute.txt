@@ -15,3 +15,5 @@ C:\Users\towar\source\repos\ArduinoNotes\ArduinoNotes\ArduinoNotes\obj\Debug\net
 C:\Users\towar\source\repos\ArduinoNotes\ArduinoNotes\ArduinoNotes\obj\Debug\netstandard2.0\ref\ArduinoNotes.dll
 C:\Users\towar\source\repos\ArduinoNotes\ArduinoNotes\ArduinoNotes\obj\Debug\netstandard2.0\FlyoutMenuPage.xaml.g.cs
 C:\Users\towar\source\repos\ArduinoNotes\ArduinoNotes\ArduinoNotes\obj\Debug\netstandard2.0\HomePage.xaml.g.cs
+C:\Users\towar\source\repos\ArduinoNotes\ArduinoNotes\ArduinoNotes\obj\Debug\netstandard2.0\AddNote.xaml.g.cs
+C:\Users\towar\source\repos\ArduinoNotes\ArduinoNotes\ArduinoNotes\obj\Debug\netstandard2.0\About.xaml.g.cs

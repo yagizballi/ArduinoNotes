@@ -12,17 +12,11 @@ namespace ArduinoNotes
     [XamlCompilation(XamlCompilationOptions.Compile)]
     public partial class HomePage : ContentPage
     {
-        public string SolutionName { get; set; } = "AndroidArduinoNotes";
         public HomePage()
         {
             InitializeComponent();
-            BindingContext = this;
+            
 
-        }
-        protected override void OnAppearing()
-        {
-            base.OnAppearing();
-            NavigationPage.SetHasNavigationBar(this, true);
         }
     }
 }

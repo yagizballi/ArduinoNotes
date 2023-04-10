@@ -17,8 +17,12 @@ namespace ArduinoNotes {
     public partial class MainPage : global::Xamarin.Forms.FlyoutPage {
         
         [global::System.CodeDom.Compiler.GeneratedCodeAttribute("Xamarin.Forms.Build.Tasks.XamlG", "2.0.0.0")]
+        private global::ArduinoNotes.FlyoutMenuPage flyout;
+        
+        [global::System.CodeDom.Compiler.GeneratedCodeAttribute("Xamarin.Forms.Build.Tasks.XamlG", "2.0.0.0")]
         private void InitializeComponent() {
             global::Xamarin.Forms.Xaml.Extensions.LoadFromXaml(this, typeof(MainPage));
+            flyout = global::Xamarin.Forms.NameScopeExtensions.FindByName<global::ArduinoNotes.FlyoutMenuPage>(this, "flyout");
         }
     }
 }

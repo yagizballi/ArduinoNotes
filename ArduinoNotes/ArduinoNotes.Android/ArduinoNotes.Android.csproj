@@ -84,7 +84,9 @@
     <AndroidResource Include="Resources\mipmap-xxxhdpi\icon.png" />
     <AndroidResource Include="Resources\mipmap-xxxhdpi\launcher_foreground.png" />
   </ItemGroup>
-  <ItemGroup />
+  <ItemGroup>
+    <AndroidResource Include="Resources\drawable\github.png" />
+  </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="..\ArduinoNotes\ArduinoNotes.csproj">
       <Project>{A06F8587-7689-46C3-B15F-2825B1A367B3}</Project>
