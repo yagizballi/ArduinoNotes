@@ -13,10 +13,16 @@ namespace ArduinoNotes
 	[XamlCompilation(XamlCompilationOptions.Compile)]
 	public partial class AddNote : ContentPage
 	{
+        public string noteHeader;
+        public string noteBody;
 		public AddNote ()
 		{
 			InitializeComponent ();
 		}
+        protected override void OnAppearing()
+        {
+            base.OnAppearing();
+        }
         private void Entry_Focused(object sender, FocusEventArgs e)
         {
 			if(NoteName.Text == "Enter Your Code Name Here")
@@ -32,6 +38,10 @@ namespace ArduinoNotes
                 NoteName.MaxLength = 99;
                 NoteName.Text = "Enter Your Code Name Here";	
             }
+        }
+        private void NoteName_Completed(object sender, EventArgs e)
+        {
+            noteHeader = NoteName.Text;
         }
         private void Code_Focused(object sender, FocusEventArgs e)
         {
@@ -59,10 +69,27 @@ namespace ArduinoNotes
             string emojiPattern = @"[\uD83C-\uDBFF\uDC00-\uDFFF]+";
             return Regex.Replace(input, emojiPattern, "");
         }
-
+        private void Code_Completed(object sender, EventArgs e)
+        {
+            noteBody = Code.Text;
+        }
         private void TakeNoteBtn_Clicked(object sender, EventArgs e)
         {
-
+            AddNoteStackLayout.Children.Add(CreateGrid(noteHeader, noteBody));
+        }
+        public Grid CreateGrid(string header, string note)
+        {
+            Label headerLabel = new Label();
+            Label noteLabel = new Label();
+            headerLabel.Text = header;
+            noteLabel.Text = note;
+            Grid noteGrid = new Grid();
+            noteGrid.Children.Add(headerLabel);
+            noteGrid.Children.Add(noteLabel);
+            noteGrid.WidthRequest = 50;
+            noteGrid.HeightRequest = 50;
+            noteGrid.BackgroundColor = Color.Red;
+            return noteGrid;
         }
     }
 }

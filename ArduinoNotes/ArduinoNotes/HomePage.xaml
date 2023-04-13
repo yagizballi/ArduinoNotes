@@ -7,9 +7,7 @@
              IconImageSource="logo.png"
              Title="Arduino Notes">
     <ContentPage.Content>
-        <StackLayout>
-            <Grid
-                HeightRequest="500"/>
-        </StackLayout>
+        <RelativeLayout x:Name="HomePageGridZone">
+        </RelativeLayout>
     </ContentPage.Content>
 </ContentPage>

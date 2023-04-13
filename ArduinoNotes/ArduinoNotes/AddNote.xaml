@@ -6,7 +6,7 @@
              BackgroundImageSource="background.png"
              FlowDirection="LeftToRight">
     <ContentPage.Content>
-        <StackLayout>
+        <StackLayout x:Name="AddNoteStackLayout">
             <Entry
                 Text="Enter Your Code Name Here"
                 x:Name="NoteName"
@@ -16,7 +16,8 @@
                 ClearButtonVisibility="WhileEditing"
                 MaxLength="99"
                 Focused="Entry_Focused"
-                Unfocused="NoteName_Unfocused"/>
+                Unfocused="NoteName_Unfocused"
+                Completed="NoteName_Completed"/>
             <Slider
                 IsEnabled="False"
                 Value="0.5"/>
@@ -30,7 +31,8 @@
                 MaxLength="9999"
                 Focused="Code_Focused"
                 Unfocused="Code_Unfocused"
-                TextChanged="Code_TextChanged"/>
+                TextChanged="Code_TextChanged"
+                Completed="Code_Completed"/>
             <Button
                 CornerRadius="30"
                 Text="Take Note"

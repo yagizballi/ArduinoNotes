@@ -1,2 +1,2 @@
-AdbTarget=
+AdbTarget=-s 6DZ569BYLN5LHMAE
 AdbOptions=
