@@ -1,2 +1,2 @@
 # ArduinoNotes
- ArduinoNotes is a Android Program for take Arduino Code Notes. ArduinoNotes has made with xamarin.forms.
+ArduinoNotes is an Android program designed for taking Arduino Code Notes. ArduinoNotes has been developed using Xamarin.Forms.
