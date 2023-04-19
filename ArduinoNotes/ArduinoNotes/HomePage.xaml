@@ -7,7 +7,11 @@
              IconImageSource="logo.png"
              Title="Arduino Notes">
     <ContentPage.Content>
-        <StackLayout x:Name="HomePageGridZone">
-        </StackLayout>
+        <ScrollView x:Name="mainScrollView" Orientation="Vertical">
+            <StackLayout Margin="0, 0, 0, 0">
+                <StackLayout x:Name="HomePageGridZone" Padding="20, 20, 20, 20" Orientation="Vertical">
+                </StackLayout>
+            </StackLayout>
+        </ScrollView>
     </ContentPage.Content>
 </ContentPage>

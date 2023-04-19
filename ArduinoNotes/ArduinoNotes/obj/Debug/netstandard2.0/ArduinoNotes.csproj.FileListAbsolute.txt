@@ -1,6 +1,10 @@
 C:\Users\towar\source\repos\ArduinoNotes\ArduinoNotes\ArduinoNotes\obj\Debug\netstandard2.0\ArduinoNotes.csproj.AssemblyReference.cache
 C:\Users\towar\source\repos\ArduinoNotes\ArduinoNotes\ArduinoNotes\obj\Debug\netstandard2.0\ArduinoNotes.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\towar\source\repos\ArduinoNotes\ArduinoNotes\ArduinoNotes\obj\Debug\netstandard2.0\About.xaml.g.cs
+C:\Users\towar\source\repos\ArduinoNotes\ArduinoNotes\ArduinoNotes\obj\Debug\netstandard2.0\AddNote.xaml.g.cs
 C:\Users\towar\source\repos\ArduinoNotes\ArduinoNotes\ArduinoNotes\obj\Debug\netstandard2.0\App.xaml.g.cs
+C:\Users\towar\source\repos\ArduinoNotes\ArduinoNotes\ArduinoNotes\obj\Debug\netstandard2.0\FlyoutMenuPage.xaml.g.cs
+C:\Users\towar\source\repos\ArduinoNotes\ArduinoNotes\ArduinoNotes\obj\Debug\netstandard2.0\HomePage.xaml.g.cs
 C:\Users\towar\source\repos\ArduinoNotes\ArduinoNotes\ArduinoNotes\obj\Debug\netstandard2.0\MainPage.xaml.g.cs
 C:\Users\towar\source\repos\ArduinoNotes\ArduinoNotes\ArduinoNotes\obj\Debug\netstandard2.0\ArduinoNotes.AssemblyInfoInputs.cache
 C:\Users\towar\source\repos\ArduinoNotes\ArduinoNotes\ArduinoNotes\obj\Debug\netstandard2.0\ArduinoNotes.AssemblyInfo.cs
@@ -13,7 +17,3 @@ C:\Users\towar\source\repos\ArduinoNotes\ArduinoNotes\ArduinoNotes\obj\Debug\net
 C:\Users\towar\source\repos\ArduinoNotes\ArduinoNotes\ArduinoNotes\obj\Debug\netstandard2.0\refint\ArduinoNotes.dll
 C:\Users\towar\source\repos\ArduinoNotes\ArduinoNotes\ArduinoNotes\obj\Debug\netstandard2.0\ArduinoNotes.pdb
 C:\Users\towar\source\repos\ArduinoNotes\ArduinoNotes\ArduinoNotes\obj\Debug\netstandard2.0\ref\ArduinoNotes.dll
-C:\Users\towar\source\repos\ArduinoNotes\ArduinoNotes\ArduinoNotes\obj\Debug\netstandard2.0\FlyoutMenuPage.xaml.g.cs
-C:\Users\towar\source\repos\ArduinoNotes\ArduinoNotes\ArduinoNotes\obj\Debug\netstandard2.0\HomePage.xaml.g.cs
-C:\Users\towar\source\repos\ArduinoNotes\ArduinoNotes\ArduinoNotes\obj\Debug\netstandard2.0\AddNote.xaml.g.cs
-C:\Users\towar\source\repos\ArduinoNotes\ArduinoNotes\ArduinoNotes\obj\Debug\netstandard2.0\About.xaml.g.cs
