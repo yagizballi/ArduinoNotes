@@ -3,7 +3,7 @@
   <PropertyGroup>
     <SelectedDevice>Xiaomi M2101K7BG</SelectedDevice>
     <SelectedPlatformGroup>PhysicalDevice</SelectedPlatformGroup>
-    <ActiveDebugProfile>Xiaomi M2101K7BG %28Android 12.0 - API 31%29</ActiveDebugProfile>
+    <ActiveDebugProfile>Xiaomi M2101K7BG %28Android 13.0 - API 33%29</ActiveDebugProfile>
     <DefaultDevice>pixel_2_pie_9_0_-_api_28</DefaultDevice>
     <AndroidDesignerPreferredTheme>MainTheme</AndroidDesignerPreferredTheme>
   </PropertyGroup>

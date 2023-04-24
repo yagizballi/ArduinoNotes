@@ -1,10 +1,12 @@
 {
   "version": 2,
-  "dgSpecHash": "PWVYEnykRtH5KrI89GYTDhjMhpUozCJbMhlYE7QFAJ22KNSCxnNtEx/yhRHRatysCSSsbk9C7gKR13oYcLvHRQ==",
+  "dgSpecHash": "g+ZgRq7TRgPnPGtImq62JbZX+fppAx8zVbwwMjgcsMsrwM9uZPFJcykX392dh+UWH5tAyoEckgo4KJGb/VDFPw==",
   "success": true,
   "projectFilePath": "C:\\Users\\towar\\source\\repos\\ArduinoNotes\\ArduinoNotes\\ArduinoNotes.Android\\ArduinoNotes.Android.csproj",
   "expectedPackageFiles": [
+    "C:\\Users\\towar\\.nuget\\packages\\microsoft.extensions.dependencyinjection.abstractions\\7.0.0\\microsoft.extensions.dependencyinjection.abstractions.7.0.0.nupkg.sha512",
     "C:\\Users\\towar\\.nuget\\packages\\system.numerics.vectors\\4.5.0\\system.numerics.vectors.4.5.0.nupkg.sha512",
+    "C:\\Users\\towar\\.nuget\\packages\\textcopy\\6.2.1\\textcopy.6.2.1.nupkg.sha512",
     "C:\\Users\\towar\\.nuget\\packages\\xamarin.androidx.activity\\1.2.4.1\\xamarin.androidx.activity.1.2.4.1.nupkg.sha512",
     "C:\\Users\\towar\\.nuget\\packages\\xamarin.androidx.annotation\\1.2.0.1\\xamarin.androidx.annotation.1.2.0.1.nupkg.sha512",
     "C:\\Users\\towar\\.nuget\\packages\\xamarin.androidx.annotation.experimental\\1.1.0.1\\xamarin.androidx.annotation.experimental.1.1.0.1.nupkg.sha512",
@@ -58,8 +60,8 @@
     "C:\\Users\\towar\\.nuget\\packages\\xamarin.androidx.versionedparcelable\\1.1.1.8\\xamarin.androidx.versionedparcelable.1.1.1.8.nupkg.sha512",
     "C:\\Users\\towar\\.nuget\\packages\\xamarin.androidx.viewpager\\1.0.0.8\\xamarin.androidx.viewpager.1.0.0.8.nupkg.sha512",
     "C:\\Users\\towar\\.nuget\\packages\\xamarin.androidx.viewpager2\\1.0.0.10\\xamarin.androidx.viewpager2.1.0.0.10.nupkg.sha512",
-    "C:\\Users\\towar\\.nuget\\packages\\xamarin.essentials\\1.7.0\\xamarin.essentials.1.7.0.nupkg.sha512",
-    "C:\\Users\\towar\\.nuget\\packages\\xamarin.forms\\5.0.0.2196\\xamarin.forms.5.0.0.2196.nupkg.sha512",
+    "C:\\Users\\towar\\.nuget\\packages\\xamarin.essentials\\1.7.5\\xamarin.essentials.1.7.5.nupkg.sha512",
+    "C:\\Users\\towar\\.nuget\\packages\\xamarin.forms\\5.0.0.2578\\xamarin.forms.5.0.0.2578.nupkg.sha512",
     "C:\\Users\\towar\\.nuget\\packages\\xamarin.google.android.material\\1.4.0.2\\xamarin.google.android.material.1.4.0.2.nupkg.sha512",
     "C:\\Program Files (x86)\\Microsoft\\Xamarin\\NuGet\\xamarin.google.guava.listenablefuture\\1.0.0.2\\xamarin.google.guava.listenablefuture.1.0.0.2.nupkg.sha512"
   ],

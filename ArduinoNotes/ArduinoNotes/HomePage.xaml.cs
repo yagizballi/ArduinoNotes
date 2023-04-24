@@ -7,6 +7,8 @@ using System.Threading.Tasks;
 
 using Xamarin.Forms;
 using Xamarin.Forms.Xaml;
+using Xamarin.Essentials;
+using TextCopy;
 
 namespace ArduinoNotes
 {
@@ -57,6 +59,7 @@ namespace ArduinoNotes
                 {
                     ContentPage noteCurrentPage = new ContentPage();
 
+                    ScrollView noteCurrentPageView = new ScrollView();
                     StackLayout noteCurrentPageLayout = new StackLayout();
                     noteCurrentPageLayout.BackgroundColor = Color.Black;
 
@@ -72,13 +75,41 @@ namespace ArduinoNotes
                     noteLabelForCurrentPage.Text = note;
                     noteLabelForCurrentPage.TextColor = Color.White;
                     noteLabelForCurrentPage.FontSize = 14;
-                    noteLabelForCurrentPage.Margin = new Thickness(5, 0, 0, 0);
+
+                    Button copyButton = new Button();
+                    copyButton.Text = "Copy";
+                    copyButton.TextColor = Color.WhiteSmoke;
+                    copyButton.BackgroundColor = Color.Gray;
+                    copyButton.HorizontalOptions = LayoutOptions.Start;
+                    copyButton.WidthRequest = 100;
+                    copyButton.HeightRequest = 50;
+
+                    copyButton.Clicked += (sender, e) =>
+                    {
+                        TextCopy.ClipboardService.SetText(note);
+                        if(ClipboardService.GetText() == note)
+                        {
+                            DisplayAlert("Success!", "Copied!", "OK");
+                        };
+                    };
+
+                    Button deleteButton = new Button();
+                    deleteButton.Text = "Delete";
+                    deleteButton.TextColor = Color.WhiteSmoke;
+                    deleteButton.BackgroundColor = Color.Gray;
+                    deleteButton.HorizontalOptions = LayoutOptions.End;
+                    deleteButton.WidthRequest = 100;
+                    deleteButton.HeightRequest = 50;
 
                     noteCurrentPageLayout.Children.Add(headerLabelForCurrentPage);
+                    noteCurrentPageLayout.Children.Add(copyButton);
+                    noteCurrentPageLayout.Children.Add(deleteButton);
                     noteCurrentPageLayout.Children.Add(noteLabelForCurrentPage);
 
-                    noteCurrentPage.Content = noteCurrentPageLayout;
+                    noteCurrentPageView.Content = noteCurrentPageLayout;
+                    noteCurrentPage.Content = noteCurrentPageView;
                     noteCurrentPage.Title = headerLabelForCurrentPage.Text;
+
 
                     await Navigation.PushAsync(noteCurrentPage);
                 })

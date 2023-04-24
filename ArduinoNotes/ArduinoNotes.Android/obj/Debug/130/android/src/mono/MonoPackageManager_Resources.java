@@ -5,6 +5,8 @@ public class MonoPackageManager_Resources {
 		"ArduinoNotes.Android.dll",
 		"ArduinoNotes.dll",
 		"FormsViewGroup.dll",
+		"Microsoft.Extensions.DependencyInjection.Abstractions.dll",
+		"TextCopy.dll",
 		"Xamarin.AndroidX.Activity.dll",
 		"Xamarin.AndroidX.Annotation.dll",
 		"Xamarin.AndroidX.Annotation.Experimental.dll",
