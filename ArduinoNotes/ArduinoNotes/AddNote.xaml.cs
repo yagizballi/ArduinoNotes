@@ -98,7 +98,19 @@ namespace ArduinoNotes
         }
         private void TakeNoteBtn_Clicked(object sender, EventArgs e)
         {
-            Note.Add(new Note() { noteHead = noteNameTextFinal, noteCode = codeTextFinal });
+            if(noteNameTextFinal != null && codeTextFinal != null) 
+            {
+                Note.Add(new Note() { noteHead = noteNameTextFinal, noteCode = codeTextFinal });
+                DisplayAlert(noteNameTextFinal, "Code Taken!", "OK");
+            }
+            else if(noteNameTextFinal == null) 
+            {
+                DisplayAlert("Error!", "You can't take unnamed codes.", "OK");
+            }
+            else if(codeTextFinal == null)
+            {
+                DisplayAlert("Error!", "You can't take empty codes.", "OK");
+            }
         }
     }
 }

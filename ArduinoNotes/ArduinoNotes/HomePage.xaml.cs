@@ -57,8 +57,7 @@ namespace ArduinoNotes
             {
                 Command = new Command(async () =>
                 {
-                    ContentPage noteCurrentPage = new ContentPage();
-
+                    HomePage noteCurrentPage = new HomePage();
                     ScrollView noteCurrentPageView = new ScrollView();
                     StackLayout noteCurrentPageLayout = new StackLayout();
                     noteCurrentPageLayout.BackgroundColor = Color.Black;
@@ -81,13 +80,14 @@ namespace ArduinoNotes
                     copyButton.TextColor = Color.WhiteSmoke;
                     copyButton.BackgroundColor = Color.Gray;
                     copyButton.HorizontalOptions = LayoutOptions.Start;
+                    copyButton.VerticalOptions = LayoutOptions.Center;
                     copyButton.WidthRequest = 100;
                     copyButton.HeightRequest = 50;
 
                     copyButton.Clicked += (sender, e) =>
                     {
                         TextCopy.ClipboardService.SetText(note);
-                        if(ClipboardService.GetText() == note)
+                        if (ClipboardService.GetText() == note)
                         {
                             DisplayAlert("Success!", "Copied!", "OK");
                         };
@@ -98,18 +98,36 @@ namespace ArduinoNotes
                     deleteButton.TextColor = Color.WhiteSmoke;
                     deleteButton.BackgroundColor = Color.Gray;
                     deleteButton.HorizontalOptions = LayoutOptions.End;
+                    deleteButton.VerticalOptions = LayoutOptions.Center;
                     deleteButton.WidthRequest = 100;
                     deleteButton.HeightRequest = 50;
 
+                    deleteButton.Clicked += async (sender, e) =>
+                    {
+                        bool areusure = await DisplayAlert("Are You Sure?", "Are you sure to delete note?", "Yes", "No");
+                        if (areusure == true)
+                        {
+                            AddNote.Note.Remove(new Note { noteHead = header, noteCode = note });
+                            await Navigation.PopAsync();
+                            HomePageGridZone.Children.Remove(noteFrame);
+                        }
+                    };
+
+                    var grid = new Grid();
+                    grid.ColumnDefinitions.Add(new ColumnDefinition { Width = new GridLength(1, GridUnitType.Star) });
+                    grid.ColumnDefinitions.Add(new ColumnDefinition { Width = new GridLength(1, GridUnitType.Star) });
+                    grid.RowDefinitions.Add(new RowDefinition { Height = new GridLength(1, GridUnitType.Star) });
+
+                    grid.Children.Add(copyButton, 0, 0);
+                    grid.Children.Add(deleteButton, 1, 0);
+
                     noteCurrentPageLayout.Children.Add(headerLabelForCurrentPage);
-                    noteCurrentPageLayout.Children.Add(copyButton);
-                    noteCurrentPageLayout.Children.Add(deleteButton);
+                    noteCurrentPageLayout.Children.Add(grid);
                     noteCurrentPageLayout.Children.Add(noteLabelForCurrentPage);
 
                     noteCurrentPageView.Content = noteCurrentPageLayout;
                     noteCurrentPage.Content = noteCurrentPageView;
                     noteCurrentPage.Title = headerLabelForCurrentPage.Text;
-
 
                     await Navigation.PushAsync(noteCurrentPage);
                 })
