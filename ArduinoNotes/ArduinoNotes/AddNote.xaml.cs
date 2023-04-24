@@ -101,6 +101,9 @@ namespace ArduinoNotes
             if(noteNameTextFinal != null && codeTextFinal != null) 
             {
                 Note.Add(new Note() { noteHead = noteNameTextFinal, noteCode = codeTextFinal });
+                NoteName.MaxLength = 99;
+                NoteName.Text = "Enter Your Code Name Here";
+                Code.Text = "Enter Your Code Here";
                 DisplayAlert(noteNameTextFinal, "Code Taken!", "OK");
             }
             else if(noteNameTextFinal == null) 

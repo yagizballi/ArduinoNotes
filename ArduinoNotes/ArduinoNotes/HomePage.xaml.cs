@@ -108,8 +108,8 @@ namespace ArduinoNotes
                         if (areusure == true)
                         {
                             AddNote.Note.Remove(new Note { noteHead = header, noteCode = note });
-                            await Navigation.PopAsync();
                             HomePageGridZone.Children.Remove(noteFrame);
+                            await Navigation.PopAsync();
                         }
                     };
 

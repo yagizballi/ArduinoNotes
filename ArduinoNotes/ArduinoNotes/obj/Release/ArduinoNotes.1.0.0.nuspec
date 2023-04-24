@@ -1,0 +1,19 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2012/06/nuspec.xsd">
+  <metadata>
+    <id>ArduinoNotes</id>
+    <version>1.0.0</version>
+    <authors>ArduinoNotes</authors>
+    <description>Package Description</description>
+    <dependencies>
+      <group targetFramework=".NETStandard2.0">
+        <dependency id="TextCopy" version="6.2.1" exclude="Build,Analyzers" />
+        <dependency id="Xamarin.Essentials" version="1.7.5" exclude="Build,Analyzers" />
+        <dependency id="Xamarin.Forms" version="5.0.0.2578" exclude="Build,Analyzers" />
+      </group>
+    </dependencies>
+  </metadata>
+  <files>
+    <file src="C:\Users\towar\source\repos\ArduinoNotes\ArduinoNotes\ArduinoNotes\bin\Release\netstandard2.0\ArduinoNotes.dll" target="lib\netstandard2.0\ArduinoNotes.dll" />
+  </files>
+</package>
