@@ -1,0 +1,93 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="ArduinoNotes.ExampleCodes"
+             BackgroundImageSource="background.png"
+             Title="Example Codes">
+    <ContentPage.Content>
+        <ScrollView>
+            <StackLayout Padding="20">
+                <Frame CornerRadius="20" BackgroundColor="White" Margin="0, 0, 0, 10" Padding="3" HasShadow="True" x:Name="Blink">
+                    <Grid WidthRequest="400" HeightRequest="400" BackgroundColor="Black">
+                        <Grid.RowDefinitions>
+                            <RowDefinition Height="50"/>
+                            <RowDefinition Height="*"/>
+                        </Grid.RowDefinitions>
+                        <Label x:Name="BlinkHeader"
+                       TextColor="White"
+                       HorizontalTextAlignment="Center"
+                       FontSize="26"
+                       WidthRequest="400"
+                       HeightRequest="50"
+                       Grid.Row="0"/>
+                        <Label x:Name="BlinkCode"
+                       TextColor="White"
+                       FontSize="14"
+                       Margin="5,0,0,0"
+                       Grid.Row="1"/>
+                    </Grid>
+                </Frame>
+                <Frame CornerRadius="20" BackgroundColor="White" Padding="3" Margin="0, 0, 0, 10" HasShadow="True" x:Name="Maze">
+                    <Grid WidthRequest="400" HeightRequest="400" BackgroundColor="Black">
+                        <Grid.RowDefinitions>
+                            <RowDefinition Height="50"/>
+                            <RowDefinition Height="*"/>
+                        </Grid.RowDefinitions>
+                        <Label x:Name="MazeHeader"
+                       TextColor="White"
+                       HorizontalTextAlignment="Center"
+                       FontSize="26"
+                       WidthRequest="400"
+                       HeightRequest="50"
+                       Grid.Row="0"/>
+                        <Label x:Name="MazeCode"
+                       TextColor="White"
+                       FontSize="14"
+                       Margin="5,0,0,0"
+                       Grid.Row="1"/>
+                    </Grid>
+                </Frame>
+                <Frame CornerRadius="20" BackgroundColor="White" Padding="3" Margin="0, 0, 0, 10" HasShadow="True" x:Name="BasicMiniSumo">
+                    <Grid WidthRequest="400" HeightRequest="400" BackgroundColor="Black">
+                        <Grid.RowDefinitions>
+                            <RowDefinition Height="50"/>
+                            <RowDefinition Height="*"/>
+                        </Grid.RowDefinitions>
+                        <Label x:Name="BasicMiniSumoHeader"
+                       TextColor="White"
+                       HorizontalTextAlignment="Center"
+                       FontSize="26"
+                       WidthRequest="400"
+                       HeightRequest="50"
+                       Grid.Row="0"/>
+                        <Label x:Name="BasicMiniSumoCode"
+                       TextColor="White"
+                       FontSize="14"
+                       Margin="5,0,0,0"
+                       Grid.Row="1"/>
+                    </Grid>
+                </Frame>
+                <Frame CornerRadius="20" BackgroundColor="White" Padding="3" Margin="0, 0, 0, 10" HasShadow="True" x:Name="AdvancedMiniSumo">
+                    <Grid WidthRequest="400" HeightRequest="400" BackgroundColor="Black">
+                        <Grid.RowDefinitions>
+                            <RowDefinition Height="50"/>
+                            <RowDefinition Height="*"/>
+                        </Grid.RowDefinitions>
+                        <Label x:Name="AdvancedMiniSumoHeader"
+                       TextColor="White"
+                       HorizontalTextAlignment="Center"
+                       FontSize="26"
+                       WidthRequest="400"
+                       HeightRequest="50"
+                       Grid.Row="0"/>
+                        <Label x:Name="AdvancedMiniSumoCode"
+                       TextColor="White"
+                       FontSize="14"
+                       Margin="5,0,0,0"
+                       Grid.Row="1"/>
+                    </Grid>
+                </Frame>
+            </StackLayout>
+        </ScrollView>
+    </ContentPage.Content>
+</ContentPage>

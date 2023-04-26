@@ -1,10 +1,5 @@
 C:\Users\towar\source\repos\ArduinoNotes\ArduinoNotes\ArduinoNotes.Android\bin\Debug\ArduinoNotes.Android.dll
 C:\Users\towar\source\repos\ArduinoNotes\ArduinoNotes\ArduinoNotes.Android\bin\Debug\ArduinoNotes.Android.pdb
-C:\Users\towar\source\repos\ArduinoNotes\ArduinoNotes\ArduinoNotes.Android\bin\Debug\com.yagizballi.arduinonotes.apk
-C:\Users\towar\source\repos\ArduinoNotes\ArduinoNotes\ArduinoNotes.Android\bin\Debug\com.yagizballi.arduinonotes.aab
-C:\Users\towar\source\repos\ArduinoNotes\ArduinoNotes\ArduinoNotes.Android\bin\Debug\com.yagizballi.arduinonotes-Signed.aab
-C:\Users\towar\source\repos\ArduinoNotes\ArduinoNotes\ArduinoNotes.Android\bin\Debug\com.yagizballi.arduinonotes-Signed.apk
-C:\Users\towar\source\repos\ArduinoNotes\ArduinoNotes\ArduinoNotes.Android\bin\Debug\com.yagizballi.arduinonotes-Signed.apk.idsig
 C:\Users\towar\source\repos\ArduinoNotes\ArduinoNotes\ArduinoNotes.Android\bin\Debug\ArduinoNotes.dll
 C:\Users\towar\source\repos\ArduinoNotes\ArduinoNotes\ArduinoNotes.Android\bin\Debug\ArduinoNotes.pdb
 C:\Users\towar\source\repos\ArduinoNotes\ArduinoNotes\ArduinoNotes.Android\obj\Debug\130\MonoAndroid,Version=v13.0.AssemblyAttributes.cs
@@ -44,10 +39,7 @@ C:\Users\towar\source\repos\ArduinoNotes\ArduinoNotes\ArduinoNotes.Android\obj\D
 C:\Users\towar\source\repos\ArduinoNotes\ArduinoNotes\ArduinoNotes.Android\obj\Debug\130\ArduinoNotes.Android.csproj.CopyComplete
 C:\Users\towar\source\repos\ArduinoNotes\ArduinoNotes\ArduinoNotes.Android\obj\Debug\130\ArduinoNotes.Android.dll
 C:\Users\towar\source\repos\ArduinoNotes\ArduinoNotes\ArduinoNotes.Android\obj\Debug\130\ArduinoNotes.Android.pdb
-C:\Users\towar\source\repos\ArduinoNotes\ArduinoNotes\ArduinoNotes.Android\obj\Debug\130\android\bin\com.yagizballi.arduinonotes.apk
 C:\Users\towar\source\repos\ArduinoNotes\ArduinoNotes\ArduinoNotes.Android\obj\Debug\130\android\bin\base.zip
-C:\Users\towar\source\repos\ArduinoNotes\ArduinoNotes\ArduinoNotes.Android\obj\Debug\130\android\bin\com.yagizballi.arduinonotes.aab
-C:\Users\towar\source\repos\ArduinoNotes\ArduinoNotes\ArduinoNotes.Android\obj\Debug\130\android\bin\com.yagizballi.arduinonotes.apks
 C:\Users\towar\source\repos\ArduinoNotes\ArduinoNotes\ArduinoNotes.Android\obj\Debug\130\res\values\styles.xml
 C:\Users\towar\source\repos\ArduinoNotes\ArduinoNotes\ArduinoNotes.Android\obj\Debug\130\res\values\colors.xml
 C:\Users\towar\source\repos\ArduinoNotes\ArduinoNotes\ArduinoNotes.Android\obj\Debug\130\res\mipmap-anydpi-v26\icon.xml
@@ -661,3 +653,12 @@ C:\Users\towar\source\repos\ArduinoNotes\ArduinoNotes\ArduinoNotes.Android\obj\D
 C:\Users\towar\source\repos\ArduinoNotes\ArduinoNotes\ArduinoNotes.Android\obj\Debug\130\stamp\_GenerateJavaStubs.stamp
 C:\Users\towar\source\repos\ArduinoNotes\ArduinoNotes\ArduinoNotes.Android\obj\Debug\130\stamp\_GeneratePackageManagerJava.stamp
 C:\Users\towar\source\repos\ArduinoNotes\ArduinoNotes\ArduinoNotes.Android\obj\Debug\130\stamp\_ResolveLibraryProjectImports.stamp
+C:\Users\towar\source\repos\ArduinoNotes\ArduinoNotes\ArduinoNotes.Android\bin\Debug\com.yagizballi0.arduinonotes.apk
+C:\Users\towar\source\repos\ArduinoNotes\ArduinoNotes\ArduinoNotes.Android\bin\Debug\com.yagizballi0.arduinonotes.aab
+C:\Users\towar\source\repos\ArduinoNotes\ArduinoNotes\ArduinoNotes.Android\bin\Debug\com.yagizballi0.arduinonotes-Signed.aab
+C:\Users\towar\source\repos\ArduinoNotes\ArduinoNotes\ArduinoNotes.Android\bin\Debug\com.yagizballi0.arduinonotes-Signed.apk
+C:\Users\towar\source\repos\ArduinoNotes\ArduinoNotes\ArduinoNotes.Android\bin\Debug\com.yagizballi0.arduinonotes-Signed.apk.idsig
+C:\Users\towar\source\repos\ArduinoNotes\ArduinoNotes\ArduinoNotes.Android\obj\Debug\130\android\bin\com.yagizballi0.arduinonotes.apk
+C:\Users\towar\source\repos\ArduinoNotes\ArduinoNotes\ArduinoNotes.Android\obj\Debug\130\android\bin\com.yagizballi0.arduinonotes.aab
+C:\Users\towar\source\repos\ArduinoNotes\ArduinoNotes\ArduinoNotes.Android\obj\Debug\130\android\bin\com.yagizballi0.arduinonotes.apks
+C:\Users\towar\source\repos\ArduinoNotes\ArduinoNotes\ArduinoNotes.Android\obj\Debug\130\android\src\com\yagizballi0\arduinonotes\R.java

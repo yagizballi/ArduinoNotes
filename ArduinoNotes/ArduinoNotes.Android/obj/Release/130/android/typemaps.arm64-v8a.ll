@@ -7564,7 +7564,7 @@ target triple = "aarch64-unknown-linux-android"
 	}, 
 	; 16
 	%struct.TypeMapModule {
-		[16 x i8] c"\9E\E2\A4\A8\927GE\A3\9B\93Mq\A0\F99", ; module_uuid: a8a4e29e-3792-4547-a39b-934d71a0f939
+		[16 x i8] c"\91\D3-\C5\03\F6\09O\8F\F4\A5\0C\EA\86\9A\ED", ; module_uuid: c52dd391-f603-4f09-8ff4-a50cea869aed
 		i32 1, ; entry_count
 		i32 0, ; duplicate_count
 		%struct.TypeMapModuleEntry* getelementptr inbounds ([1 x %struct.TypeMapModuleEntry], [1 x %struct.TypeMapModuleEntry]* @module16_managed_to_java, i32 0, i32 0), ; map

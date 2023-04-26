@@ -23,6 +23,10 @@ namespace ArduinoNotes
                 HomePageGridZone.Children.Add(CreateFrame(x.noteHead, x.noteCode));
             }
         }
+        private async void examplecodes_Clicked(object sender, EventArgs e)
+        {
+            Navigation.PushAsync(new ExampleCodes());
+        }
         public Frame CreateFrame(string header, string note)
         {
             Grid noteGrid = new Grid();

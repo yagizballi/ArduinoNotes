@@ -9,7 +9,11 @@
     <ContentPage.Content>
         <ScrollView x:Name="mainScrollView" Orientation="Vertical">
             <StackLayout Margin="0, 0, 0, 0">
-                <StackLayout x:Name="HomePageGridZone" Padding="20, 20, 20, 20" Orientation="Vertical">
+                <StackLayout x:Name="HomePageGridZone" Padding="20" Orientation="Vertical">
+                    <Button
+                        Text="EXAMPLE CODES"
+                        x:Name="examplecodes"
+                        Clicked="examplecodes_Clicked"/>
                 </StackLayout>
             </StackLayout>
         </ScrollView>

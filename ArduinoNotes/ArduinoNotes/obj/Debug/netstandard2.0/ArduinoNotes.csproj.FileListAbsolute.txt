@@ -17,3 +17,4 @@ C:\Users\towar\source\repos\ArduinoNotes\ArduinoNotes\ArduinoNotes\obj\Debug\net
 C:\Users\towar\source\repos\ArduinoNotes\ArduinoNotes\ArduinoNotes\obj\Debug\netstandard2.0\refint\ArduinoNotes.dll
 C:\Users\towar\source\repos\ArduinoNotes\ArduinoNotes\ArduinoNotes\obj\Debug\netstandard2.0\ArduinoNotes.pdb
 C:\Users\towar\source\repos\ArduinoNotes\ArduinoNotes\ArduinoNotes\obj\Debug\netstandard2.0\ref\ArduinoNotes.dll
+C:\Users\towar\source\repos\ArduinoNotes\ArduinoNotes\ArduinoNotes\obj\Debug\netstandard2.0\ExampleCodes.xaml.g.cs
