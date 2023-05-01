@@ -87,6 +87,26 @@
                        Grid.Row="1"/>
                     </Grid>
                 </Frame>
+                <Frame CornerRadius="20" BackgroundColor="White" Padding="3" Margin="0, 0, 0, 10" HasShadow="True" x:Name="RobotCar">
+                    <Grid WidthRequest="400" HeightRequest="400" BackgroundColor="Black">
+                        <Grid.RowDefinitions>
+                            <RowDefinition Height="50"/>
+                            <RowDefinition Height="*"/>
+                        </Grid.RowDefinitions>
+                        <Label x:Name="RobotCarHeader"
+                       TextColor="White"
+                       HorizontalTextAlignment="Center"
+                       FontSize="26"
+                       WidthRequest="400"
+                       HeightRequest="50"
+                       Grid.Row="0"/>
+                        <Label x:Name="RobotCarCode"
+                       TextColor="White"
+                       FontSize="14"
+                       Margin="5,0,0,0"
+                       Grid.Row="1"/>
+                    </Grid>
+                </Frame>
             </StackLayout>
         </ScrollView>
     </ContentPage.Content>
