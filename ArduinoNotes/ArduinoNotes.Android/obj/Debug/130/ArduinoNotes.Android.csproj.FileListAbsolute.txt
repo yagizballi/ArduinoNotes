@@ -615,7 +615,6 @@ C:\Users\towar\source\repos\ArduinoNotes\ArduinoNotes\ArduinoNotes.Android\obj\D
 C:\Users\towar\source\repos\ArduinoNotes\ArduinoNotes\ArduinoNotes.Android\obj\Debug\130\android\src\mono\MonoPackageManager_Resources.java
 C:\Users\towar\source\repos\ArduinoNotes\ArduinoNotes\ArduinoNotes.Android\obj\Debug\130\android\src\xamarin\essentials\fileProvider.java
 C:\Users\towar\source\repos\ArduinoNotes\ArduinoNotes\ArduinoNotes.Android\obj\Debug\130\android\bin\packaged_resources
-C:\Users\towar\source\repos\ArduinoNotes\ArduinoNotes\ArduinoNotes.Android\obj\Debug\130\android\src\com\yagizballi\arduinonotes\R.java
 C:\Users\towar\source\repos\ArduinoNotes\ArduinoNotes\ArduinoNotes.Android\obj\Debug\130\android\compressed_assemblies.arm64-v8a.ll
 C:\Users\towar\source\repos\ArduinoNotes\ArduinoNotes\ArduinoNotes.Android\obj\Debug\130\android\compressed_assemblies.armeabi-v7a.ll
 C:\Users\towar\source\repos\ArduinoNotes\ArduinoNotes\ArduinoNotes.Android\obj\Debug\130\android\compressed_assemblies.x86.ll
@@ -662,3 +661,6 @@ C:\Users\towar\source\repos\ArduinoNotes\ArduinoNotes\ArduinoNotes.Android\obj\D
 C:\Users\towar\source\repos\ArduinoNotes\ArduinoNotes\ArduinoNotes.Android\obj\Debug\130\android\bin\com.yagizballi0.arduinonotes.aab
 C:\Users\towar\source\repos\ArduinoNotes\ArduinoNotes\ArduinoNotes.Android\obj\Debug\130\android\bin\com.yagizballi0.arduinonotes.apks
 C:\Users\towar\source\repos\ArduinoNotes\ArduinoNotes\ArduinoNotes.Android\obj\Debug\130\android\src\com\yagizballi0\arduinonotes\R.java
+C:\Users\towar\source\repos\ArduinoNotes\ArduinoNotes\ArduinoNotes.Android\obj\Debug\130\res\drawable\trafiklambasi.png
+C:\Users\towar\source\repos\ArduinoNotes\ArduinoNotes\ArduinoNotes.Android\obj\Debug\130\res\drawable\ldr.png
+C:\Users\towar\source\repos\ArduinoNotes\ArduinoNotes\ArduinoNotes.Android\obj\Debug\130\res\drawable\deprem.jpeg

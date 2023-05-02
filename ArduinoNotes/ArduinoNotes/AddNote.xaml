@@ -8,7 +8,7 @@
     <ContentPage.Content>
         <StackLayout x:Name="AddNoteStackLayout">
             <Entry
-                Text="Enter Your Code Name Here"
+                Text="Buraya Kod İsmini Gir"
                 x:Name="NoteName"
                 HorizontalTextAlignment="Center"
                 FontSize="25"
@@ -22,7 +22,7 @@
                 IsEnabled="False"
                 Value="0.5"/>
             <Editor
-                Text="Enter Your Code Here"
+                Text="Buraya Kodu Gir"
                 HeightRequest="450"
                 x:Name="Code"
                 HorizontalOptions="CenterAndExpand"
@@ -35,7 +35,7 @@
                 Completed="Code_Completed"/>
             <Button
                 CornerRadius="30"
-                Text="Take Note"
+                Text="Not Ekle"
                 x:Name="TakeNoteBtn"
                 Margin="20, 30, 20, 0"
                 Clicked="TakeNoteBtn_Clicked"

@@ -3,7 +3,7 @@
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
              FlowDirection="LeftToRight"
              x:Class="ArduinoNotes.HomePage"
-             BackgroundImageSource="background.png"
+             BackgroundColor="DarkBlue"
              IconImageSource="logo.png"
              Title="Arduino Notes">
     <ContentPage.Content>
@@ -11,7 +11,7 @@
             <StackLayout Margin="0, 0, 0, 0">
                 <StackLayout x:Name="HomePageGridZone" Padding="20" Orientation="Vertical">
                     <Button
-                        Text="EXAMPLE CODES"
+                        Text="ÖRNEK KODLAR"
                         x:Name="examplecodes"
                         Clicked="examplecodes_Clicked"/>
                 </StackLayout>

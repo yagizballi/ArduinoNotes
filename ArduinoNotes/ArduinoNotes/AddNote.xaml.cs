@@ -40,7 +40,7 @@ namespace ArduinoNotes
         }
         private void Entry_Focused(object sender, FocusEventArgs e)
         {
-			if(NoteName.Text == "Enter Your Code Name Here")
+			if(NoteName.Text == "Buraya Kod İsmini Gir")
 			{
                 NoteName.Text = string.Empty;
             }
@@ -51,12 +51,12 @@ namespace ArduinoNotes
 			if (NoteName.Text == string.Empty)
 			{
                 NoteName.MaxLength = 99;
-                NoteName.Text = "Enter Your Code Name Here";	
+                NoteName.Text = "Buraya Kod İsmini Gir";	
             }
         }
         private void NoteName_Completed(object sender, EventArgs e)
         {
-            if(NoteName.Text == "Enter Your Code Name Here")
+            if(NoteName.Text == "Buraya Kod İsmini Gir")
             {
                 noteNameTextFinal = "";
             }
@@ -65,7 +65,7 @@ namespace ArduinoNotes
         private void Code_Focused(object sender, FocusEventArgs e)
         {
             Code.HorizontalOptions = LayoutOptions.FillAndExpand;
-            if(Code.Text == "Enter Your Code Here")
+            if(Code.Text == "Buraya Kodu Gir")
             {
                 Code.Text = string.Empty;
             }
@@ -75,7 +75,7 @@ namespace ArduinoNotes
         {
             if(Code.Text == string.Empty)
             {
-                Code.Text = "Enter Your Code Here";
+                Code.Text = "Buraya Kodu Gir";
                 Code.HorizontalOptions = LayoutOptions.CenterAndExpand;
             }
         }
@@ -90,7 +90,7 @@ namespace ArduinoNotes
         }
         private void Code_Completed(object sender, EventArgs e)
         {
-            if(Code.Text == "Enter Your Code Here")
+            if(Code.Text == "Buraya Kodu Gir")
             {
                 codeTextFinal = "";
             }
@@ -102,17 +102,17 @@ namespace ArduinoNotes
             {
                 Note.Add(new Note() { noteHead = noteNameTextFinal, noteCode = codeTextFinal });
                 NoteName.MaxLength = 99;
-                NoteName.Text = "Enter Your Code Name Here";
-                Code.Text = "Enter Your Code Here";
-                DisplayAlert(noteNameTextFinal, "Code Taken!", "OK");
+                NoteName.Text = "Buraya Kod İsmini Gir";
+                Code.Text = "Buraya Kodu Gir";
+                DisplayAlert(noteNameTextFinal, "Not Alındı!", "Tamam");
             }
             else if(noteNameTextFinal == null) 
             {
-                DisplayAlert("Error!", "You can't take unnamed codes.", "OK");
+                DisplayAlert("Hata!", "İsimsiz notlar alamazsın.", "Tamam");
             }
             else if(codeTextFinal == null)
             {
-                DisplayAlert("Error!", "You can't take empty codes.", "OK");
+                DisplayAlert("Hata!", "Boş kodlar alamazsın.", "Tamam");
             }
         }
     }

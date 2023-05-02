@@ -80,7 +80,7 @@ namespace ArduinoNotes
                     noteLabelForCurrentPage.FontSize = 14;
 
                     Button copyButton = new Button();
-                    copyButton.Text = "Copy";
+                    copyButton.Text = "Kopyala";
                     copyButton.TextColor = Color.WhiteSmoke;
                     copyButton.BackgroundColor = Color.Gray;
                     copyButton.HorizontalOptions = LayoutOptions.Start;
@@ -93,7 +93,7 @@ namespace ArduinoNotes
                         TextCopy.ClipboardService.SetText(note);
                         if (ClipboardService.GetText() == note)
                         {
-                            DisplayAlert("Success!", "Copied!", "OK");
+                            DisplayAlert("Başarılı!", "Kopyalandı!", "Tamam");
                         };
                     };
 

@@ -14,7 +14,7 @@
             <Image Source="logo"
                    WidthRequest="200"
                    BackgroundColor="WhiteSmoke"/>
-            <Label Text="Arduino Notes is a application for access Arduino Example Notes in android phone."
+            <Label Text="Arduino Notes, Arduino code örneklerine android telefondan erişmek için bir uygulamadır."
                    TextColor="WhiteSmoke"
                    Margin="10, 0, 0, 0"
                    FontSize="15"/>
@@ -24,12 +24,12 @@
                          WidthRequest="100"
                          HorizontalOptions="Center"
                          Clicked="githubOpenBrowser_Clicked"/>
-            <Label Text="Made by Yağız BALLI"
+            <Label Text="Yağız BALLI tarafından yapıldı"
                    VerticalOptions="EndAndExpand"
                    TextColor="WhiteSmoke"
                    Margin="10, 0, 0, 0"
                    FontSize="20"/>
-            <Label Text="Logo Designed by Samet BARLAK"
+            <Label Text="Logo Samet BARLAK tarafından yapıldı."
                    TextColor="WhiteSmoke"
                    FontSize="20"
                    Margin="10, 0, 0, 20"/>
